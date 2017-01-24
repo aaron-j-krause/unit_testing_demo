@@ -1,0 +1,49 @@
+body {
+  background-color: #55f
+}
+
+form {
+  position: relative;
+}
+
+form > * {
+  width: 30%;
+  margin-left: 10px;
+}
+
+form span {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 25px;
+  left: 20px;
+}
+
+.error {
+  outline: 2px solid red;
+}
+
+.editor {
+  border: 1px solid blue;
+  padding: 5px 15px;
+  height: 120px;
+  min-width: 410px;
+  margin: 100px auto;
+  width: 410px;
+  background-color: #ccf;
+}
+
+.editor h1 {
+  text-align: center;
+}
+
+.classic {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.modern {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif
+}
