@@ -16,7 +16,6 @@ export default class TopComponent extends React.Component {
 
   handleChange(e) {
     let { name, value } = e.target
-
     if (name === 'message' && value.length > 16) {
       e.target.value = value.slice(0, 16)
       return this.setState({
