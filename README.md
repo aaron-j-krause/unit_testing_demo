@@ -1,1 +1,3 @@
-React unit testing for message editor app
+Unit Testing Basics with Mocha/Enzyme
+
+Uses basic message editor for app.
